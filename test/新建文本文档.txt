@@ -1,0 +1,3 @@
+; 获取活动窗口的 ID/HWND
+id := WinExist("A")
+MsgBox % id
